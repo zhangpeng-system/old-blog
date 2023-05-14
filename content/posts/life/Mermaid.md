@@ -15,8 +15,8 @@ weight: # 表示順番
 draft: false # 下書き
 # ーーーーーーーーーーーーーーーーーーーーーーーーー設定ーーーーーーーーーーーーーーーーーーーーーーーーー
 # aliases: ["/first"]
-ShowToc: true # 目次
-TocOpen: true # 目次の自動展開
+# ShowToc: true # 目次
+# TocOpen: true # 目次の自動展開
 hidemeta: false # ブログメッセージの表示
 comments: true #　コメント
 # canonicalタグとは、サイト内で評価される正規URLをGoogleの検索エンジンに認識させるタグのことです。
@@ -30,8 +30,7 @@ showbreadcrumbs: true #　目次のパス表示
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
-UseHugoToc: true
-# mermaid: true
+# UseHugoToc: true
 
 cover:
     image: "" # 画像パス：posts/tech/ブログファイル同名フォルダ/picture.png
