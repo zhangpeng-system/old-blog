@@ -94,16 +94,6 @@ params:
       SiteVerificationTag: "XYZabc"
     yandex:
       SiteVerificationTag: "XYZabc"
-# ーーーーーーーーーーーーーーーーーーーーーーーーーイラスト画像設定ーーーーーーーーーーーーーーーーーーーーーーーーー
-  # cover:
-  #   hidden: true # hide everywhere but not in structured data
-  #   hiddenInList: true # hide on list pages and home
-  #   hiddenInSingle: true # hide on single page
-# ーーーーーーーーーーーーーーーーーーーーーーーーー編集者設定ーーーーーーーーーーーーーーーーーーーーーーーーー
-  # editPost:
-  #   URL: "https://github.com/<path_to_repo>/content"
-  #   Text: "Suggest Changes" # edit text
-  #   appendFilePath: true # to append file path to Edit link
 # ーーーーーーーーーーーーーーーーーーーーーーーーー検索設定ーーーーーーーーーーーーーーーーーーーーーーーーー
   # for search
   # https://fusejs.io/api/options.html
@@ -122,14 +112,6 @@ menu:
       name: Home
       url: /
       weight: 1
-    - identifier: search
-      name: Search
-      url: "search"
-      weight: 4
-    - identifier: archive
-      name: Archive
-      url: archives
-      weight: 5
     - identifier: categories
       name: Categories
       url: categories
@@ -138,9 +120,15 @@ menu:
       name: Tags
       url: tags
       weight: 3
-
+    - identifier: search
+      name: Search
+      url: "search"
+      weight: 4
+    - identifier: archive
+      name: Archive
+      url: archives
+      weight: 5
 pygmentsUseClasses: true
-
 outputs:
   home:
     - HTML

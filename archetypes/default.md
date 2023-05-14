@@ -1,17 +1,12 @@
 ---
 title: "{{ replace .Name "-" " " | title }}" #　タイトル
-
 categories: ["カテゴリ１", "カテゴリ２"] 
 tags: ["タグ１", "タグ２", "タグ３"]
-
 date: {{ .Date }} # 作成日付
 lastmod: {{ .Date }} # 更新日付
-
 author: ["JOJO"] # 作者
-
 weight: # 表示順番
 draft: false # 下書き
-
 # aliases: ["/first"]
 showToc: true # 目次
 TocOpen: true # 目次の自動展開
@@ -30,7 +25,6 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-
 cover:
     image: "" # 画像パス：posts/tech/ブログファイル同名フォルダ/picture.png
     alt: "" # 画像説明

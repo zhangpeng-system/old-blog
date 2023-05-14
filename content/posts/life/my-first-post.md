@@ -32,14 +32,11 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 
 cover:
-    image: "" # 画像パス：posts/tech/ブログファイル同名フォルダ/picture.png
+    image: "posts/life/my-first-post/a.png" # 画像パス：posts/tech/ブログファイル同名フォルダ/picture.png
     alt: "" # 画像説明
     caption: "" # 画像説明(画像下部)
-    relative: false # when using page bundles set this to true
+    # relative: false # when using page bundles set this to true
     # hidden: true # only hide on current single page
-
-# editPost: # 編集モード
-#     URL: "https://github.com/<path_to_repo>/content"
-#     Text: "Suggest Changes" # edit text
-#     appendFilePath: true # to append file path to Edit link
 ---
+
+![スクリーンショット 2023-05-02 22.49.08](my-first-post/スクリーンショット 2023-05-02 22.49.08.png)![スクリーンショット 2023-05-02 22.44.20](my-first-post/b.png)
