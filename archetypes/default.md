@@ -26,7 +26,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "" # 画像パス：posts/tech/ブログファイル同名フォルダ/picture.png
+    image: "icon/my-icon.jpg" # 画像パス：posts/life/ブログファイル同名.png
     alt: "" # 画像説明
     caption: "" # 画像説明(画像下部)
     relative: false # when using page bundles set this to true

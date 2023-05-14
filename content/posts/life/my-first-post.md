@@ -32,7 +32,7 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 
 cover:
-    image: "posts/life/my-first-post/b.png" # 画像パス：posts/tech/ブログファイル同名フォルダ/picture.png
+    image: "icon/my-icon.jpg" # 画像パス：posts/tech/ブログファイル同名フォルダ/picture.png
     alt: "" # 画像説明
     caption: "" # 画像説明(画像下部)
     # relative: false # when using page bundles set this to true
