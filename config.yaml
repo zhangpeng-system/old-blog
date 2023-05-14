@@ -25,7 +25,7 @@ params:
   description: "ブログ環境説明文"
   keywords: [Blog, Portfolio, PaperMod, Flutter, ブログ, 初心者, 技術, IT]
   author: JOJO
-  images: ["icon/my-icon.jpg"]
+  images: ["icon/my-icon.jpg"] # staticフォルダに配置
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false # テーマのトグルを無効にする
@@ -70,12 +70,6 @@ params:
         url: posts
       - name: Profile
         url: profile
-# ーーーーーーーーーーーーーーーーーーーーーーーーーホームページモードーーーーーーーーーーーーーーーーーーーーーーーーー
-  # home-info mode
-  # homeInfoParams:
-  #   Title: "こんにちは 👋"
-  #   Content: Welcome to my blog <br>
-  #     👇联系方式
 # ーーーーーーーーーーーーーーーーーーーーーーーーーSNS設定ーーーーーーーーーーーーーーーーーーーーーーーーー
   socialIcons:
     - name: github
@@ -112,7 +106,6 @@ params:
   #   appendFilePath: true # to append file path to Edit link
 # ーーーーーーーーーーーーーーーーーーーーーーーーー検索設定ーーーーーーーーーーーーーーーーーーーーーーーーー
   # for search
-  
   # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
