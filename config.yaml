@@ -50,8 +50,6 @@ params:
     favicon32x32: "icon/my-icon.jpg"
     apple_touch_icon: "icon/my-icon.jpg"
     safari_pinned_tab: "icon/my-icon.jpg"
-  # mermaid:
-  #   enable: true
 # ーーーーーーーーーーーーーーーーーーーーーーーーーラベル設定ーーーーーーーーーーーーーーーーーーーーーーーーー
   label:
     text: JOJO's Blog
