@@ -2,12 +2,10 @@ baseURL: "https://zhangpeng-system.github.io/blog/"
 title: JOJO's Blog
 paginate: 15
 theme: PaperMod
-# ーーーーーーーーーーーーーーーーーーーーーーーーー設定ーーーーーーーーーーーーーーーーーーーーーーーーー
 enableInlineShortcodes: true #允许内联短码
 enableEmoji: true # 允许使用 Emoji 表情，建议 true
 enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true
 hasCJKLanguage: true # 自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启
-# ーーーーーーーーーーーーーーーーーーーーーーーーービルド設定ーーーーーーーーーーーーーーーーーーーーーーーーー
 buildDrafts: false # 下書きをビルドしない
 buildFuture: false # 未来の投稿をビルドしない
 buildExpired: false # 期限が切れた投稿をビルドしない
@@ -16,9 +14,7 @@ minify:
   minifyOutput: true # 出力を最小化する
 permalinks: #浏览器链接显示方式
   post: "/:title/"
-# ーーーーーーーーーーーーーーーーーーーーーーーーーGoogle AnalyticsのトラッキングIDーーーーーーーーーーーーーーーーーーーーーーーーー
 googleAnalytics: UA-123-45
-# ーーーーーーーーーーーーーーーーーーーーーーーーー環境設定ーーーーーーーーーーーーーーーーーーーーーーーーー
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
@@ -50,12 +46,10 @@ params:
     favicon32x32: "icon/my-icon.jpg"
     apple_touch_icon: "icon/my-icon.jpg"
     safari_pinned_tab: "icon/my-icon.jpg"
-# ーーーーーーーーーーーーーーーーーーーーーーーーーラベル設定ーーーーーーーーーーーーーーーーーーーーーーーーー
   label:
     text: JOJO's Blog
     # icon: icon/my-icon.jpg
     # iconHeight: 35
-# ーーーーーーーーーーーーーーーーーーーーーーーーープロフィールモードーーーーーーーーーーーーーーーーーーーーーーーーー
   profileMode:
     enabled: true
     title: Keep it simple, stupid.
@@ -70,7 +64,6 @@ params:
         url: posts
       - name: Profile
         url: profile
-# ーーーーーーーーーーーーーーーーーーーーーーーーーSNS設定ーーーーーーーーーーーーーーーーーーーーーーーーー
   socialIcons:
     - name: github
       url: "https://github.com/zhangpeng-system"
@@ -86,7 +79,6 @@ params:
     #   url: "img/wechat.png"
     # - name: stackoverflow
     #   url: "https://stackoverflow.com"
-# ーーーーーーーーーーーーーーーーーーーーーーーーーTOC上部設定ーーーーーーーーーーーーーーーーーーーーーーーーー
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
@@ -94,7 +86,6 @@ params:
       SiteVerificationTag: "XYZabc"
     yandex:
       SiteVerificationTag: "XYZabc"
-# ーーーーーーーーーーーーーーーーーーーーーーーーー検索設定ーーーーーーーーーーーーーーーーーーーーーーーーー
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
@@ -105,7 +96,6 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-# ーーーーーーーーーーーーーーーーーーーーーーーーーメニュー設定ーーーーーーーーーーーーーーーーーーーーーーーーー
 menu:
   main:
     - identifier: home
@@ -134,7 +124,6 @@ outputs:
     - HTML
     - RSS
     - JSON # is necessary
-# ーーーーーーーーーーーーーーーーーーーーーーーーーソースコードスタイル設定ーーーーーーーーーーーーーーーーーーーーーーーーー
 markup:
   goldmark:
     renderer:

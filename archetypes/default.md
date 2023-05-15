@@ -7,7 +7,6 @@ lastmod: {{ .Date }} # 更新日付
 author: ["JOJO"] # 作者
 weight: # 表示順番
 draft: false # 下書き
-# aliases: ["/first"]
 showToc: true # 目次
 TocOpen: true # 目次の自動展開
 hidemeta: false # ブログメッセージの表示
@@ -30,5 +29,5 @@ cover:
     alt: "" # 画像説明
     caption: "" # 画像説明(画像下部)
     relative: false # when using page bundles set this to true
-    # hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 ---
