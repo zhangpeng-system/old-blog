@@ -102,10 +102,10 @@ menu:
       name: Home
       url: /
       weight: 1
-    - identifier: categories
-      name: Categories
-      url: categories
-      weight: 2
+    # - identifier: categories
+    #   name: Categories
+    #   url: categories
+    #   weight: 2
     - identifier: tags
       name: Tags
       url: tags

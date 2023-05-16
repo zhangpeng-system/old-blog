@@ -1,8 +1,8 @@
 ---
 title: "My First Post" #　タイトル
 
-categories: ["カテゴリ１", "カテゴリ２"] 
-tags: ["タグ１", "タグ２", "タグ３"]
+# categories: ["カテゴリ１", "カテゴリ２"] 
+tags: ["分野", "言語", "技術"]
 
 date: 2023-05-14T15:04:42+09:00 # 作成日付
 lastmod: 2023-05-14T15:04:42+09:00 # 更新日付
@@ -17,7 +17,7 @@ showToc: true # 目次
 TocOpen: true # 目次の自動展開
 hidemeta: false # ブログメッセージの表示
 comments: true #　コメント
-description: "Desc Text."
+# description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false # Fooderのシェアボタンの表示
@@ -32,7 +32,7 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 
 cover:
-    image: "icon/my-icon.jpg" # 画像パス：posts/tech/ブログファイル同名フォルダ/picture.png
+    image: "default-cover/default-cover.png" # 画像パス：posts/tech/ブログファイル同名フォルダ/picture.png
     alt: "" # 画像説明
     caption: "" # 画像説明(画像下部)
     # relative: false # when using page bundles set this to true
