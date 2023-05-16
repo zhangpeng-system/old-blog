@@ -48,8 +48,8 @@ params:
     safari_pinned_tab: "icon/my-icon.jpg"
   label:
     text: JOJO's Blog
-    # icon: icon/my-icon.jpg
-    # iconHeight: 35
+    icon: icon/my-icon.jpg
+    iconHeight: 35
   profileMode:
     enabled: true
     title: Keep it simple, stupid.
