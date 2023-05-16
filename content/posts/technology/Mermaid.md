@@ -1,16 +1,14 @@
 ---
 # ーーーーーーーーーーーーーーーーーーーーーーーーー表示内容ーーーーーーーーーーーーーーーーーーーーーーーーー
 title: "Mermaid Test" #　タイトル
-description: "サブタイトル."
 
 author: ["JOJO"] # 作者
 
 date: 2023-05-04T21:33:36+09:00 # 作成日付
 ShowReadingTime: true #　閲覧予測時間
-# lastmod: 2023-05-04T21:33:36+09:00 # 更新日付
 
 # categories: ["カテゴリ１", "カテゴリ２"] 
-tags: ["分野", "言語", "技術"]
+tags: ["Hugo", "Mermaid", "UML"]
 weight: # 表示順番
 draft: false # 下書き
 # ーーーーーーーーーーーーーーーーーーーーーーーーー設定ーーーーーーーーーーーーーーーーーーーーーーーーー
@@ -30,7 +28,7 @@ showbreadcrumbs: true #　目次のパス表示
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
-# UseHugoToc: true
+UseHugoToc: true
 
 cover:
     image: "" # 画像パス：posts/tech/ブログファイル同名フォルダ/picture.png

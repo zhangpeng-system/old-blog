@@ -1,9 +1,7 @@
 ---
 title: "おすすめな Macbook Air 設定５選" #　タイトル
-# categories: ["カテゴリ１", "カテゴリ２"] 
-tags: ["分野", "言語", "技術"]
-date: 2023-05-15T22:54:23+09:00 # 作成日付
-lastmod: 2023-05-15T22:54:23+09:00 # 更新日付
+tags: ["life", "MacBook"]
+date: 2023-05-14T22:54:23+09:00 # 作成日付
 author: ["JOJO"] # 作者
 weight: # 表示順番
 draft: false # 下書き
@@ -25,7 +23,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "default-cover/default-cover.png" # 画像パス：posts/life/ブログファイル同名.png
+    image: "posts/life/おすすめな Macbook Air 設定５選/おすすめな Macbook Air 設定５選.001.png" # 画像パス：posts/life/ブログファイル同名.png
     alt: "" # 画像説明
     caption: "" # 画像説明(画像下部)
     relative: false # when using page bundles set this to true

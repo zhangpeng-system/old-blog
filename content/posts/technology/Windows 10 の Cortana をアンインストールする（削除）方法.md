@@ -1,7 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}" #　タイトル
+title: "Windows 10 の Cortana をアンインストールする（削除）方法" #　タイトル
 tags: ["領域", "言語", "技術"]
-date: {{ .Date }} # 作成日付
+date: 2023-05-17T00:26:35+09:00 # 作成日付
 author: ["JOJO"] # 作者
 weight: # 表示順番
 draft: false # 下書き
@@ -29,3 +29,21 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 ---
+# アンインストール手順
+
+- Windows PowerShellを管理者権限で実行します。
+
+![](https://storage.googleapis.com/zenn-user-upload/9c59532fb185-20230114.png)
+
+- 下記のコマンドをコピペして実行します。
+
+```shell
+Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage
+```
+
+- 実行完了↓
+
+![](https://storage.googleapis.com/zenn-user-upload/8610ee2d8db2-20230114.png)
+
+- ctrl + C で Cortana を起動して見ると、何も出てきません、これで削除はできました。
+
