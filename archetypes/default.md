@@ -15,7 +15,7 @@ disableHLJS: true # to disable highlightjs
 disableShare: false # Fooderのシェアボタンの表示
 disableHLJS: false
 hideSummary: false
-searchHidden: false # 検索可能
+searchHidden: trus # 検索可能
 ShowReadingTime: true #　閲覧予測時間
 showbreadcrumbs: true #　目次のパス表示
 ShowPostNavLinks: true
