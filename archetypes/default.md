@@ -24,7 +24,7 @@ tags: ["領域", "言語", "技術"]
 description: "「追いかけ続ける勇気さえあれば、夢は必ず叶います」"
 weight: # 表示順番
 cover:
-    image: "default-cover/default-cover.png" # 画像パス：posts/life/ブログファイル同名.png
+    image: "default-cover/default-cover.png"
     alt: ""
     caption: ""
     relative: false # when using page bundles set this to true
