@@ -9,8 +9,8 @@ showToc: true # 目次
 TocOpen: true # 目次の自動展開
 hidemeta: false # ブログメッセージの表示
 comments: true #　コメント
-# description: "Desc Text."
-canonicalURL: "https://canonical.url/to/page"
+description: "「追いかけ続ける勇気さえあれば、夢は必ず叶います」"
+canonicalURL: "https://zhangpeng-system.github.io/blog/"
 disableHLJS: true # to disable highlightjs
 disableShare: false # Fooderのシェアボタンの表示
 disableHLJS: false
@@ -23,7 +23,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "default-cover/default-cover.png" # 画像パス：posts/life/ブログファイル同名.png
+    image: "posts/technology/MacOS の Terminal でユーザー名と PC 名を非表示にする/MacOS の Terminal でユーザー名と PC 名を非表示にする.001.png" # 画像パス：posts/life/ブログファイル同名.png
     alt: "" # 画像説明
     caption: "" # 画像説明(画像下部)
     relative: false # when using page bundles set this to true

@@ -9,8 +9,8 @@ showToc: true # 目次
 TocOpen: true # 目次の自動展開
 hidemeta: false # ブログメッセージの表示
 comments: true #　コメント
-# description: "Desc Text."
-canonicalURL: "https://canonical.url/to/page"
+description: "「追いかけ続ける勇気さえあれば、夢は必ず叶います」"
+canonicalURL: "https://zhangpeng-system.github.io/blog/"
 disableHLJS: true # to disable highlightjs
 disableShare: false # Fooderのシェアボタンの表示
 disableHLJS: false

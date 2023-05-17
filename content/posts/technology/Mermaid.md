@@ -7,17 +7,16 @@ author: ["JOJO"] # 作者
 date: 2023-05-04T21:33:36+09:00 # 作成日付
 ShowReadingTime: true #　閲覧予測時間
 
-# categories: ["カテゴリ１", "カテゴリ２"] 
 tags: ["Hugo", "Mermaid", "UML"]
 weight: # 表示順番
 draft: false # 下書き
 # ーーーーーーーーーーーーーーーーーーーーーーーーー設定ーーーーーーーーーーーーーーーーーーーーーーーーー
 # aliases: ["/first"]
-# ShowToc: true # 目次
-# TocOpen: true # 目次の自動展開
+ShowToc: true # 目次
+TocOpen: true # 目次の自動展開
 hidemeta: false # ブログメッセージの表示
 comments: true #　コメント
-# canonicalタグとは、サイト内で評価される正規URLをGoogleの検索エンジンに認識させるタグのことです。
+description: "「追いかけ続ける勇気さえあれば、夢は必ず叶います」"
 canonicalURL: "https://zhangpeng-system.github.io/blog/"
 disableHLJS: true # to disable highlightjs
 disableShare: false # Fooderのシェアボタンの表示
@@ -37,10 +36,6 @@ cover:
     relative: false # when using page bundles set this to true
     # hidden: true # only hide on current single page
 
-# editPost: # 編集モード
-#     URL: "https://github.com/<path_to_repo>/content"
-#     Text: "Suggest Changes" # edit text
-#     appendFilePath: true # to append file path to Edit link
 ---
 # This is a test for UML.
 ## pre記法
@@ -59,7 +54,7 @@ cover:
 </div>
 
 ## markdown記法
-```mermaid
+``` mermaid
 sequenceDiagram
     participant Alice
     participant Bob
@@ -71,6 +66,7 @@ sequenceDiagram
     John-->>Alice: Great!
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
+    
 ```
 ## Hugo記法
 {{< mermaid >}}

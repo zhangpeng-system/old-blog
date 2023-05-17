@@ -1,7 +1,6 @@
 ---
-title: "方法" #　タイトル
-tags: ["領域", "言語", "技術"]
-# date: 2023-05-17T00:26:35+09:00 # 作成日付
+title: "Windows 10 の Cortana をアンインストールする（削除）方法" #　タイトル
+tags: ["Windows", "Shell", "Cortana"]
 date: 2023-05-14T22:54:23+09:00 # 作成日付
 author: ["JOJO"] # 作者
 weight: # 表示順番
@@ -10,8 +9,8 @@ showToc: true # 目次
 TocOpen: true # 目次の自動展開
 hidemeta: false # ブログメッセージの表示
 comments: true #　コメント
-# description: "Desc Text."
-canonicalURL: "https://canonical.url/to/page"
+description: "「追いかけ続ける勇気さえあれば、夢は必ず叶います」"
+canonicalURL: "https://zhangpeng-system.github.io/blog/"
 disableHLJS: true # to disable highlightjs
 disableShare: false # Fooderのシェアボタンの表示
 disableHLJS: false
@@ -24,7 +23,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "default-cover/default-cover.png" # 画像パス：posts/life/ブログファイル同名.png
+    image: "posts/technology/Windows 10 の Cortana をアンインストールする（削除）方法/Windows 10 の Cortana をアンインストールする（削除）方法.001.png" # 画像パス：posts/life/ブログファイル同名.png
     alt: "" # 画像キーワード
     caption: "" # 画像説明(画像下部)
     relative: false # when using page bundles set this to true
