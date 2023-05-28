@@ -1,6 +1,6 @@
 ---
 title: "Windows 10 の Cortana をアンインストールする（削除）方法" #　タイトル
-tags: ["Windows", "Shell", "Cortana"]
+tags: ["WindowsOS", "Shell", "Cortana"]
 date: 2023-05-14T22:54:23+09:00 # 作成日付
 author: ["JOJO"] # 作者
 weight: # 表示順番

@@ -194,3 +194,4 @@ command + shift + .
 - ダブルクリックして`Logi Options+`インストール
 
 ![](https://storage.googleapis.com/zenn-user-upload/c869fbdf4590-20230126.png)
+
