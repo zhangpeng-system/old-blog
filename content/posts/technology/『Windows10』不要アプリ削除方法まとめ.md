@@ -23,7 +23,7 @@ tags: ["WindowsOS", "Shell"]
 description: "「追いかけ続ける勇気さえあれば、夢は必ず叶います」"
 weight:
 cover:
-    image: "default-cover/default-cover.png"
+    image: "posts/technology/『Windows10』不要アプリ削除方法まとめ/『Windows10』不要アプリ削除方法まとめ.001.png"
     alt: ""
     caption: ""
     relative: false # when using page bundles set this to true
