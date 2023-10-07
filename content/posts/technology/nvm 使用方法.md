@@ -1,5 +1,5 @@
 ---
-title: "Nvm 使用方法"
+title: "NVN 使用方法"
 date: 2023-08-20T18:01:56+09:00
 author: ["JOJO"]
 hidemeta: false
