@@ -31,13 +31,13 @@ cover:
 # ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝🔼編集必要🔼＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 ---
 
-## はじめに
+# はじめに
 
 - Flutter 公式からも環境設定の説明を用意していますが、実際に着手してみると、初めてなので色々トラブルが発生しました。
 - 本記事では 、私が踏んだ落穴を経験として、M1 Macbook をターゲットに導入中の注意点と導入順番を改善しました。
 - M1 Macbook であれば、公式より本記事の方が詳しくてわかりやすいと思っています。
 
-## Rosetta 2（SUDO命令）
+# Rosetta 2（SUDO命令）
 
 - Apple Silicon Mac に Flutter を 導入する場合 Rosetta（ロゼッタ）が必要です。
   ターミナルを開き、下記のコマンドで Rosetta 2 を導入します。
@@ -95,7 +95,7 @@ usage: softwareupdate <cmd> [<args> ...]
 ~ % 
 ```
 
-## Xcode（App Store）
+# Xcode（App Store）
 
 - Apple Store を開き、`Xcode`と言うソフトウエアをインストールします。
 
@@ -126,9 +126,9 @@ sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
 sudo xcodebuild -runFirstLaunch
 ```
 
-## Cocoapods（brew）
+# Cocoapods（brew）
 
-### ちょっと大事なことをここで：
+## ちょっと大事なことをここで：
 
 > Uinx like（macOS） で開発環境の設定やソフトウエアの管理を便利にできるのが `Homebrew`を使用するのが定番です。
 
@@ -169,7 +169,7 @@ Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 
 ![image-20230126233605059.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3076318/1e5dd5c9-2461-0c45-3a50-20c930070cfa.png)
 
-## Flutter SDK（brew）
+# Flutter SDK（brew）
 
 - ターミナルを開き、下記のコマンドで Flutter SDK を導入します。
 
@@ -195,7 +195,7 @@ Already downloaded: /Users/admin/Library/Caches/Homebrew/downloads/18fd0ad2115d4
 
 > コマンド一行で導入完了！
 
-## Java（brew）
+# Java（brew）
 
 - Android 用の Flutter アプリを開発するため Java が必要です。
   ターミナルを開き、下記のコマンドで Open JDK、いわゆる Java を導入します。
@@ -234,7 +234,7 @@ OpenJDK 64-Bit Server VM Homebrew (build 19.0.1, mixed mode, sharing)
 ~ % 
 ```
 
-## Android Studio（brew）
+# Android Studio（brew）
 
 - ターミナルを開き、下記のコマンドで Android Studio 導入します。
 
@@ -292,7 +292,7 @@ $ flutter doctor --android-licenses
 
 > 写真を撮り忘れました。。。
 
-## Hello World ! （Flutter）
+# Hello World ! （Flutter）
 
 >  早速Flutter DEMOを一つ立ち上げましょう。
 
@@ -325,7 +325,7 @@ $ flutter doctor --android-licenses
 ![image-20230201210814903.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3076318/c624bf27-89d1-2891-dba5-5a66bff0b0fa.png)
 
 
-## 終わりに
+# 終わりに
 
 ほぼゼロから M1 Macbook の Flutter 導入方法を説明しました。ご参考になればうれしいと思います。
 
