@@ -128,7 +128,7 @@ sudo xcodebuild -runFirstLaunch
 
 # Cocoapods（brew）
 
-## ちょっと大事なことをここで：
+**ちょっと大事なことをここで：**
 
 > Uinx like（macOS） で開発環境の設定やソフトウエアの管理を便利にできるのが `Homebrew`を使用するのが定番です。
 
