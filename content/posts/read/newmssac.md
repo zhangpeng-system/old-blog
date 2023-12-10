@@ -1,6 +1,6 @@
 ---
-title: "Newmac"
-date: 2023-12-11T01:35:42+09:00
+title: "Newmssac"
+date: 2023-12-11T01:54:10+09:00
 author: ["JOJO"]
 hidemeta: false
 draft: false
@@ -30,4 +30,3 @@ cover:
     hidden: false # only hide on current single page
 # ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝🔼編集必要🔼＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 ---
-sssssxasx
