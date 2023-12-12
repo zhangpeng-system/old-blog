@@ -1,7 +1,7 @@
 ---
 title: "Homebrew で MacOS のソフトウェアを管理する"
 date: 2023-05-18T22:37:27+09:00
-author: ["JOJO"]
+author: ["ZHANG PENG"] # 作者
 hidemeta: false
 draft: false
 UseHugoToc: true

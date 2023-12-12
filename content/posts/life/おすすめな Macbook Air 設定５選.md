@@ -2,7 +2,7 @@
 title: "おすすめな Macbook Air 設定５選" #　タイトル
 tags: ["life", "MacBook"]
 date: 2023-05-14T22:54:23+09:00 # 作成日付
-author: ["JOJO"] # 作者
+author: ["ZHANG PENG"] # 作者
 weight: # 表示順番
 draft: false # 下書き
 showToc: true # 目次

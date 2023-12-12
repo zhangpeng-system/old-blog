@@ -1,7 +1,7 @@
 ---
 title: "『Flutter』M1 MacOS 開発环境配置"
 date: 2023-05-29T22:45:49+09:00
-author: ["JOJO"]
+author: ["ZHANG PENG"] # 作者
 hidemeta: false
 draft: false
 UseHugoToc: true

@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-author: ["JOJO"]
+author: ["ZHANG PENG"]
 hidemeta: false
 draft: false
 UseHugoToc: true
@@ -19,7 +19,7 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 # ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝🔽編集必要🔽＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
-tags: ["領域", "言語", "技術"]
+tags: ["分類1", "分類2", "分類2"]
 description: "「追いかけ続ける勇気さえあれば、夢は必ず叶います」"
 weight:
 cover:
