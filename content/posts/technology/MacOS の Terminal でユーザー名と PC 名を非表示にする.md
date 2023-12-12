@@ -2,7 +2,7 @@
 title: "MacOS の Terminal でユーザー名と PC 名を非表示にする" #　タイトル
 tags: ["Terminal", "Shell", "zsh"]
 date: 2023-05-17T00:17:50+09:00 # 作成日付
-author: ["JOJO"] # 作者
+author: ["ZHANG PENG"] # 作者
 weight: # 表示順番
 draft: false # 下書き
 showToc: true # 目次
